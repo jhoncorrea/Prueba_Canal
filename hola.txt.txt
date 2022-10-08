@@ -1,5 +1,58 @@
-hola mundo
-jhon
-dd
+En JS no se necesita asignar el tipo de dato al iniciar una variable
+Existen 3 formas para declarar una variable
+var => es la forma más usada
+let => tiene un comportamiento diferente que se verá luego
+const => esta variable NO se podrá cambiar por eso es CONSTANTE
 
-dfdfdas
+Ejem
+var nombre = 'juan';
+let apellido = 'perez'
+const comidafavorita = 'pizza'
+
+console.log(); es un método que nos permite imprimir en consola
+
+====================================================================
+Tipos de datos
+Strings
+Numbers
+Booleans
+
+STRING
+var nombrePerro = 'firulais';
+
+NUMBERS
+var positivo = 27;
+var negativo = -40;
+
+BOOLEAN
+var meEncantaJavascript = true;
+
+====================================================================
+OPERADORES
+
+var a = 2 + 3;
+var b = 3 / 3;
+
+notación INFIJA (entre los operandos 7 + 5)
+notación PREFIJA (a la izquiera de los operandos +AB)
+notación SUFIJA (a la derecha de los operandos AB+)
+
+====================================================================
+OBJETOS Y MÉTODOS
+console.log();
+console = Objeto
+log() = método
+
+Math.round(6.5) = 7;
+Math.round(6.45) = 6;
+Math.floor(6.999) = 6;
+Math.ceil(6.00001) = 7;
+
+====================================================================
+FUNCIONES (hay 3 formas para crear una función)
+
+function miFuncion() {}
+var otraFuncion = function () {};
+var yOtra = () => {};
+
+
